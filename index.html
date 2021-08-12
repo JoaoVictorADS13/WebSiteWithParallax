@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+		
+		/* Configuração padrão da página
+		-------------------------------*/
+		body, html {
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #777;
+			background-color: white;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+
+		h3 {
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+
+		p{
+			margin-bottom: 20px;
+		}
+
+		/* Efeito Parallax
+		-------------------------------*/
+		.caixa1, .caixa2, .caixa3, .caixa4 {
+			position: relative;
+			height: 100%;
+			opacity: 0.7;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed; 
+		}
+
+		.caixa1 {
+			background-image: url(imagens/imagem1.jpg);
+		}
+
+		.caixa2 {
+			background-image: url(imagens/imagem2.jpg);
+		}
+
+		.caixa3 {
+			background-image: url(imagens/imagem3.jpg);
+		}
+
+		.caixa4 {
+			background-image: url(imagens/imagem4.jpg);
+		}
+
+		.conteudo-titulo {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.conteudo-titulo span.titulo {
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="caixa1">
+		<div class="conteudo-titulo">
+			<span class="titulo">PASSEIO DE BALÕES</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Frases</h3>
+		<p>“O mundo é um livro, e aqueles que não viajam lêem apenas uma página.” </p>
+
+		<p>“Se fosse para ficarmos em um só lugar, teríamos raízes ao invés de pés.” </p>
+
+		<p>“Onde meus talentos e minhas paixões encontram as necessidades do mundo, lá está o meu caminho, o meu lugar.”</p>
+		
+		<p>“Há um tempo em que é preciso abandonar as roupas usadas, que já tem a forma do nosso corpo, e esquecer os nossos caminhos, que nos levam sempre aos mesmos lugares. É o tempo da travessia: e, se não ousarmos fazê-la, teremos ficado, para sempre, à margem de nós mesmos.” </p>
+	</div>
+
+	<div class="caixa2">
+		<div class="conteudo-titulo">
+			<span class="titulo">Pegando a estrada</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Conselhos</h3>
+		<p>“Daqui a vinte anos, você não terá arrependimento das coisas que fez, mas das que deixou de fazer. Por isso, veleje longe do seu porto seguro. Pegue os ventos. Explore. Sonhe. Descubra.”</p>
+
+		<p>“Descobri como é bom chegar quando se tem paciência. E para se chegar, onde quer que seja, aprendi que não é preciso dominar a força, mas a razão. É preciso, antes de mais nada, querer.” </p>
+		<p>“Suba a montanha não para fixar a sua bandeira, mas para abraçar o desafio, desfrutar do ar e usufruir da paisagem. Escale-a para que possa ver o mundo, não para que o mundo possa te ver.”</p>
+	</div>
+
+	<div class="caixa3">
+		<div class="conteudo-titulo">
+		<span class="titulo">Pôr do sol</span>
+
+		</div>
+	</div>
+
+	<div class="caixa4">
+		<div class="conteudo-titulo">
+			<span class="titulo">Montanhas</span>
+		</div>
+	</div>
+
+</body>
+</html>
