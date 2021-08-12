@@ -1,2 +1,2 @@
 # WebSiteWithParallax
-O parallax é uma técnica que cria a impressão de um ambiente 3D, os planos de fundo, e a medida que você navega pelo site, as imagens se movimentam mais lentamente do que a sua navegação.
+O parallax é uma técnica muito ultilizada em sites, jogos e aplicativos. O Código foi desenvolvido utilizando um pouco de HTML e CSS para se ter uma ideia de como funciona essa técnica que cria um layout muito bacana e interessante.
